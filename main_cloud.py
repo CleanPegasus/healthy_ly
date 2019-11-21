@@ -18,10 +18,10 @@ food_category = np.load('food_category.npy')
 print(food_category.shape)
 
 config = {
-    "apiKey": "AIzaSyDQ1lcaiMTXR3Dmey9VY_gFJK2mt05MMds",
-    "authDomain": "recipify-c54b7.firebaseapp.com",
-    "databaseURL": "https://recipify-c54b7.firebaseio.com",
-    "storageBucket": "recipify-c54b7.appspot.com"
+    "apiKey": "****************",
+    "authDomain": "**************************",
+    "databaseURL": "**************************",
+    "storageBucket": "**************************"
 }
 
 firebase = Firebase(config)
@@ -70,7 +70,7 @@ def get_food_nutrients(food):
 
     headers = {
         'x-rapidapi-host': "nutritionix-api.p.rapidapi.com",
-        'x-rapidapi-key': "e4573ac34fmshc71719554be1369p1d0fcajsnc45c98c12e74"
+        'x-rapidapi-key': "***********************************"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
@@ -99,7 +99,7 @@ def get_food_details(food):
 
     headers = {
         'x-rapidapi-host': "recipe-puppy.p.rapidapi.com",
-        'x-rapidapi-key': "e4573ac34fmshc71719554be1369p1d0fcajsnc45c98c12e74"
+        'x-rapidapi-key': "**********************************"
     }
 
     querystring = {"q": str(food)}
