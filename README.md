@@ -3,7 +3,8 @@
 An android app that can show if a food is allergic to you just by clicking its picture. It can likewise demonstrate it's health benefits, ingredients and recipes.
 
 Team Members:
-@vishnuram1999
+![Vishnuram](https://github.com/vishnuram1999)
+![Kathiravan](https://github.com/kathiravanrs)
 
 ## Working
 
